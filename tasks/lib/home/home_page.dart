@@ -69,11 +69,12 @@ class _HomePageState extends State<HomePage> {
               : Expanded(child: toDoWidgetList(context)),
         ],
       ),
-
+      // 투두 추가 버튼
       floatingActionButton: HomeFloatingBtn(addToDo),
     );
   }
 
+  // 투두리스트 정렬
   void toDoListSort() {
     if (sortWithDate) {
       toDoList.sort((a, b) => a.createAt.compareTo(b.createAt));
@@ -88,6 +89,7 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  //저장순
   void sortWithDateOnTap() {
     setState(() {
       sortWithDate = !sortWithDate;
@@ -95,6 +97,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  //완료 포함
   void sortWithDoneOnTap() {
     setState(() {
       sortWithDone = !sortWithDone;

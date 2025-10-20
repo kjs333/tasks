@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//정렬 버튼 위젯
 class SortBtn extends StatelessWidget {
   final bool btnOn;
   final String text;

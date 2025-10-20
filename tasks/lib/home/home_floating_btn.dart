@@ -11,7 +11,7 @@ class HomeFloatingBtn extends StatefulWidget {
 class _HomeFloatingBtnState extends State<HomeFloatingBtn> {
   final titleController = TextEditingController();
   final descController = TextEditingController();
-  bool detailBtnClicked = false;
+  bool detailBtnClicked = false; // 상세 추가 버튼 클릭여부
   bool isTitleNotEmpty = false; // 타이틀이 비어있으면 저장X
   bool isFavorite = false;
 
