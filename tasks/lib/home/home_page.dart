@@ -48,22 +48,24 @@ class _HomePageState extends State<HomePage> {
       // 투두리스트 비어있으면 그림과 설명, 아니면 할 일 목록 위젯 넣기
       body: Column(
         children: [
-          SizedBox(
-            height: 40,
-            child: Row(
-              children: [
-                Expanded(
-                  child: SortBtn(sortWithDate, "저장순", sortWithDateOnTap),
+          toDoList.isEmpty
+              ? SizedBox(height: 1)
+              : SizedBox(
+                height: 40,
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: SortBtn(sortWithDate, "저장순", sortWithDateOnTap),
+                    ),
+                    Expanded(
+                      child: SortBtn(!sortWithDate, "중요순", sortWithDateOnTap),
+                    ),
+                    Expanded(
+                      child: SortBtn(sortWithDone, "완료 포함", sortWithDoneOnTap),
+                    ),
+                  ],
                 ),
-                Expanded(
-                  child: SortBtn(!sortWithDate, "중요순", sortWithDateOnTap),
-                ),
-                Expanded(
-                  child: SortBtn(sortWithDone, "완료 포함", sortWithDoneOnTap),
-                ),
-              ],
-            ),
-          ),
+              ),
           toDoList.isEmpty
               ? NoToDo(widget.titleName)
               : Expanded(child: toDoWidgetList(context)),
