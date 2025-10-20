@@ -79,7 +79,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: HomePage("지선's Tasks"),
+      home: HomePage("KJS's Tasks"),
     );
   }
 }
