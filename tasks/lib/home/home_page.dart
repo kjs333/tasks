@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           toDoList.isEmpty
-              ? Expanded(child: NoToDo(widget.titleName))
+              ? NoToDo(widget.titleName)
               : Expanded(child: toDoWidgetList(context)),
         ],
       ),
