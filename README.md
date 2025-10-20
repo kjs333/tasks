@@ -35,6 +35,8 @@
 <img width="190" height="400" alt="image" src="https://github.com/user-attachments/assets/da69931a-e030-4dd0-bbf9-a6055dbac031" />
 
 ### 1. 제목과 상세 내용 적는 부분 외 공간을 터치시 키보드 내려감.
+<img width="190" height="400" alt="image" src="https://github.com/user-attachments/assets/0f7db408-6ef8-4117-9e32-e677785d3014" />
+<img width="190" height="400" alt="image" src="https://github.com/user-attachments/assets/4269e376-88a1-4d25-a785-e45fafe758c3" />
 
 ### 2. 제목이 비었을 경우 알림창
 <img width="190" height="400" alt="image" src="https://github.com/user-attachments/assets/9cafb34f-4198-4bf1-9fd2-37e62909a304" />
