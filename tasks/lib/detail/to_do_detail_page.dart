@@ -35,7 +35,7 @@ class _ToDoDetailPageState extends State<ToDoDetailPage> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        FocusManager.instance.primaryFocus?.unfocus();
+        FocusScope.of(context).unfocus();
       },
       child: Scaffold(
         resizeToAvoidBottomInset: true,
