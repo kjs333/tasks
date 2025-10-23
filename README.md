@@ -4,7 +4,7 @@
 
 ### 1. 할 일 목록 유무 화면
 
-<img width="190" height="400" alt="image" src="https://github.com/user-attachments/assets/12987839-6cc3-402d-98ee-fe8979894c47" />
+<img width="190" height="400" alt="image" src="https://github.com/user-attachments/assets/6c9d1e68-5963-42c7-94c4-faa5f5e2b29f" />
 <img width="190" height="400" alt="스크린샷 2025-10-20 204941" src="https://github.com/user-attachments/assets/3e519ea6-9556-4722-b5ed-43009a445008" />
 
 
