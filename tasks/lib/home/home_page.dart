@@ -18,20 +18,11 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   List<ToDoEntity> toDoList = [];
 
-  final titleController = TextEditingController();
-  final descController = TextEditingController();
   bool detailBtnClicked = false;
   bool isTitleEmpty = true;
   bool isFavorite = false;
   bool sortWithDate = true;
   bool sortWithDone = true;
-
-  @override
-  void dispose() {
-    titleController.dispose();
-    descController.dispose();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
